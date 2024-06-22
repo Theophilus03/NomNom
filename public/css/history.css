@@ -1,0 +1,78 @@
+body{
+    background-color: whitesmoke;
+
+}
+h1{
+    color: #f46016;
+}
+.section{
+    margin-top: 50px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    min-height: 600px;
+    gap: 30px;
+}
+.card:hover{
+    scale: 101%;
+}
+.card{
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.detail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.detail2{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+.status{
+    border: 1px solid none;
+    border-radius: 30px;
+    position: absolute;
+    right: 20px;
+    margin-top: 7%;
+    color: white;
+    font-weight: bold;
+}
+.complete{
+    background-color: #0ade18;
+}
+.ongoing{
+    background-color: #eb9f3b;
+}
+.date{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid gray;
+    padding-right: 30px;
+    min-width: 200px;
+}
+
+.month{
+    color: #f46016;
+}
+
+
+
+.logo{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
